@@ -118,4 +118,9 @@ class Fan:
         if self.__speed < Fan.__FAST:
             self.__speed += 1
         
+    # Method that decreases the fan's speed by 1 if it is not already at the minimum
+    def decrease_speed(self):
+        if self.__speed > Fan.__SLOW:
+            self.__speed -= 1
+
     
