@@ -48,3 +48,8 @@ Class Fan:
             radiusSetter(newRadius):
                 Set the value of color to newColor.
 '''
+
+class Fan:
+    __SLOW = 1
+    __MEDIUM = 2
+    __FAST = 3
