@@ -58,4 +58,5 @@ class Fan:
     __FAST = 3
 
     # Enable Fan class constructor/s
+    # Constructor that initializes the Fan object to its default settings
     def __init__ (self, speed=1, radius=5, color="blue", on=False):
