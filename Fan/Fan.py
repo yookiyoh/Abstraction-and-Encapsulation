@@ -112,3 +112,10 @@ class Fan:
         else:
             message = f"The {self.__color} fan is currently off."
         return message
+    
+    # Method that increases the fan's speed by 1 if it is not already at the maximum
+    def increase_speed(self):
+        if self.__speed < Fan.__FAST:
+            self.__speed += 1
+        
+    
