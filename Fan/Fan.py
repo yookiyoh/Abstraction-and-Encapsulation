@@ -89,4 +89,10 @@ class Fan:
         else:
             raise ValueError("Invalid radius value. Must be greater than 0.")
     
+    # Method that gets the current color of the fan
+    def get_color(self):
+        return self.__color
     
+    # Method that sets the color of the fan with the given value
+    def set_radius(self, color):
+        self.__color = color   # Assign the new color
