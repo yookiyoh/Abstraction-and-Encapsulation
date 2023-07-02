@@ -72,8 +72,10 @@ class Fan:
         return self.__speed
     
     # Method that sets the speed of the fan with the given value
-    def set_speed(self):
+    def set_speed(self, speed):
         if speed in (Fan.__SLOW, Fan.__MEDIUM, Fan.__FAST):
             self.__speed = speed   # Assign the new speed
         else:
             raise ValueError("Invalid speed value. Must be SLOW, MEDIUM, or FAST.")
+    
+    
