@@ -67,9 +67,13 @@ class Fan:
         self.__on = on
     
     # Execute the Fan class methods
-
     # Method that gets the current speed of the fan
     def get_speed(self):
         return self.__speed
     
-
+    # Method that sets the speed of the fan with the given value
+    def set_speed(self):
+        if speed in (Fan.__SLOW, Fan.__MEDIUM, Fan.__FAST):
+            self.__speed = speed   # Assign the new speed
+        else:
+            raise ValueError("Invalid speed value. Must be SLOW, MEDIUM, or FAST.")
