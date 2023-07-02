@@ -46,4 +46,3 @@ Class Fan:
 
             radiusSetter(newRadius):
                 Set the value of color to newColor.
-
