@@ -3,6 +3,7 @@
 # Object-Oriented Programming | Car Class
 
 # Pseudocode
+'''
 Class Fan:
     Constants:
         SLOW = 1
@@ -46,3 +47,4 @@ Class Fan:
 
             radiusSetter(newRadius):
                 Set the value of color to newColor.
+'''

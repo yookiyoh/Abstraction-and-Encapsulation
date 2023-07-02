@@ -3,6 +3,7 @@
 # Object-Oriented Programming | Car Class
 
 # Pseudocode
+'''
 Class TestFan:
     Main:
         fan1 = Fan(speed=fan.FAST, radius=10, color="yellow", on=True)
@@ -19,3 +20,4 @@ Class TestFan:
         Print("Radius: ", fan2.radiusGetter())
         Print("Color: ", fan2.colorGetter())
         Print("On: ", fan2.onGetter())
+'''
