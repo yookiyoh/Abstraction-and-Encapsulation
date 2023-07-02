@@ -65,3 +65,11 @@ class Fan:
         self.__radius = radius
         self.__color = color
         self.__on = on
+    
+    # Execute the Fan class methods
+
+    # Method that gets the current speed of the fan
+    def get_speed(self):
+        return self.__speed
+    
+    
