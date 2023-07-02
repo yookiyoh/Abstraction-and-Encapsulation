@@ -104,3 +104,11 @@ class Fan:
     # Method that sets the status of the fan (on/off)
     def set_radius(self, on):
         self.__on = bool(on)   # Convert the input to a Boolean value
+
+    # Method that displays a message describing the fan's status
+    def display_message(self):
+        if self.__on:
+            message = f"The {self.__color} fan is spinning at {self.__speed} speed."
+        else:
+            message = f"The {self.__color} fan is currently off."
+        return message
