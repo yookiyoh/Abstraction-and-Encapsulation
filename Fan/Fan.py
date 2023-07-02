@@ -96,3 +96,7 @@ class Fan:
     # Method that sets the color of the fan with the given value
     def set_radius(self, color):
         self.__color = color   # Assign the new color
+    
+    # Method that checks if the fan is turned on or not
+    def is_on(self):
+        return self.__on
