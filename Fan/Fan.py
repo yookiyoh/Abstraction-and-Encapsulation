@@ -78,4 +78,9 @@ class Fan:
         else:
             raise ValueError("Invalid speed value. Must be SLOW, MEDIUM, or FAST.")
     
+    # Method that gets the current radius of the fan
+    def get_radius(self):
+        return self.__radius
+    
+    
     
