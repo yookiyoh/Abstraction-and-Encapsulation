@@ -21,3 +21,8 @@ Class TestFan:
         Print("Color: ", fan2.colorGetter())
         Print("On: ", fan2.onGetter())
 '''
+
+
+
+# Import Fan
+from Fan import Fan
