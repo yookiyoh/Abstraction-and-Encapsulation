@@ -53,9 +53,9 @@ Class Fan:
 
 # Define a Fan class with its properties and methods
 class Fan:
-    __SLOW = 1
-    __MEDIUM = 2
-    __FAST = 3
+    __SLOW = 1   # Private constant attribute representing the slow speed of the fan
+    __MEDIUM = 2   # Private constant attribute representing the medium speed of the fan
+    __FAST = 3   # Private constant attribute representing the fast speed of the fan
 
     # Enable Fan class constructor/s
     # Constructor that initializes the Fan object to its default settings
@@ -73,4 +73,3 @@ class Fan:
         return self.__speed
     
 
-    
