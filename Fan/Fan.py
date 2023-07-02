@@ -122,5 +122,3 @@ class Fan:
     def decrease_speed(self):
         if self.__speed > Fan.__SLOW:
             self.__speed -= 1
-
-    
