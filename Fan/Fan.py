@@ -72,4 +72,5 @@ class Fan:
     def get_speed(self):
         return self.__speed
     
+
     
