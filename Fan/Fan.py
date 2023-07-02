@@ -60,3 +60,8 @@ class Fan:
     # Enable Fan class constructor/s
     # Constructor that initializes the Fan object to its default settings
     def __init__ (self, speed=1, radius=5, color="blue", on=False):
+        # Defined the default values for speed, radius, color, and on state
+        self.__speed = speed
+        self.__radius = radius
+        self.__color = color
+        self.__on = on
