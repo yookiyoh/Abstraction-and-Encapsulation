@@ -100,3 +100,7 @@ class Fan:
     # Method that checks if the fan is turned on or not
     def is_on(self):
         return self.__on
+    
+    # Method that sets the status of the fan (on/off)
+    def set_radius(self, on):
+        self.__on = bool(on)   # Convert the input to a Boolean value
