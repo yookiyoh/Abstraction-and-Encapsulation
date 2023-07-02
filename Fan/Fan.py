@@ -49,7 +49,13 @@ Class Fan:
                 Set the value of color to newColor.
 '''
 
+
+
+# Define a Fan class with its properties and methods
 class Fan:
     __SLOW = 1
     __MEDIUM = 2
     __FAST = 3
+
+    # Enable Fan class constructor/s
+    def __init__ (self, speed=1, radius=5, color="blue", on=False):
