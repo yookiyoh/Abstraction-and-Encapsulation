@@ -91,4 +91,8 @@ def main():
     # Create a progress bar with a total of 10 steps, description "Accelerating and Braking", and unit "step"
     progress_bar = tqdm(total=10, desc="Accelerating and Braking", unit="step")
 
-    #
+    # Create a GUI window using Tkinter
+    window = tk.Tk()
+    window.title("Car Acceleration")
+
+    
