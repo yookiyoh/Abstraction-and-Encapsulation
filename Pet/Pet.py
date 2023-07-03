@@ -48,4 +48,8 @@ class Pet:
         self.__animal_type = ""
         self.__age = 0
     
+    # Method that sets the name of the pet
+    def set_name(self, name):
+        self.__name = name
+    
     
