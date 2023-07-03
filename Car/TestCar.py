@@ -111,5 +111,11 @@ def main():
             progress_bar.update(1)   # Update the progress bar by 1 step
             window.update()   # Update the GUI window
 
+        # Brake the car 5 times
+        for _ in range(5):
+            brake_car(car)
+            speed_value.config(text=str(car.get_speed()))   # Update the label with the current speed
+            progress_bar.update(1)   # Update the progress bar by 1 step
+            window.update()   # Update the GUI window
         
         
