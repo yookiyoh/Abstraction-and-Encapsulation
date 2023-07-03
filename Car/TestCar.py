@@ -88,4 +88,7 @@ def main():
     # Create a Car object with year model and manufacturer
     car = Car(2023, "Bugatti")
 
-    
+    # Create a progress bar with a total of 10 steps, description "Accelerating and Braking", and unit "step"
+    progress_bar = tqdm(total=10, desc="Accelerating and Braking", unit="step")
+
+    #
