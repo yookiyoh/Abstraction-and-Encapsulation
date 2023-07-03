@@ -28,3 +28,7 @@ class Car:
         return __speed
 '''
 
+
+# Define a Car class with its properties and methods
+class Car:
+    
