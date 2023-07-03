@@ -140,4 +140,6 @@ class PetDetailsWidget(tk.Tk):
         self.pet.set_animal_type(animal_type)
         self.pet.set_age(age)
 
+        self.display_pet_details()   # Display the pet details
+
         
