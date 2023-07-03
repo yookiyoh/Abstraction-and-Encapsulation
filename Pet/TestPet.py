@@ -180,4 +180,18 @@ class PetDetailsWidget(tk.Tk):
         for label in labels:
             label.config(fg=color)
         
-    
+    # Method that animates the window size
+    def animate_window_size(self):
+        width, height = self.winfo_width(), self.winfo_height()
+
+        for _ in range(3):   # Perform window size animation 3 times
+            self.geometry(f"{width + 50}x{height + 50}")
+            self.update()
+            time.sleep(0.5)
+
+            self.geometry(f"{width}x{height}")
+            self.update()
+            time.sleep(0.5)
+        
+
+
