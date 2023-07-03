@@ -142,4 +142,13 @@ class PetDetailsWidget(tk.Tk):
 
         self.display_pet_details()   # Display the pet details
 
-        
+    # Method that displays the pet details
+    def display_pet_details(self):
+        self.clear_widgets()   # Clear any existing widgets in the window
+
+        # Create labels to display the pet details
+        pet_name_label = tk.Label(self, text="Name: " + self.pet.get_name(), font=("Ubuntu", 14, "bold"), fg="green")
+        pet_type_label = tk.Label(self, text="Type: " + self.pet.get_animal_type(), font=("Ubuntu", 14, "bold"), fg="blue")
+        pet_age_label = tk.Label(self, text="Age: " + str(self.pet.get_name()), font=("Ubuntu", 14, "bold"), fg="purple")
+
+        # 
