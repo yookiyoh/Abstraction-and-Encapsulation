@@ -56,4 +56,8 @@ class Pet:
     def animal_type(self, animal_type):
         self.__animal_type = animal_type
     
+    # Method that sets the age of the pet
+    def set_age(self, age):
+        self.__age = age
+    
     
