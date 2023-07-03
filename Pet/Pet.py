@@ -39,3 +39,5 @@ class Pet:
 
 
 
+# Define a Pet Class with its properties and methods
+class Pet:
