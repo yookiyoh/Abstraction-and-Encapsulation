@@ -95,4 +95,8 @@ def main():
     window = tk.Tk()
     window.title("Car Acceleration")
 
-    
+    # Create a label to display the text "Current Speed:"
+    speed_label = tk.Label(window, text="Current Speed:")
+    speed_label.pack()
+
+    # 
