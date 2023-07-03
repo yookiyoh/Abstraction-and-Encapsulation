@@ -24,7 +24,7 @@ Class TestFan:
 
 
 
-# Import Fan
+# Import the Fan Class from Pet Module
 from Fan import Fan
 
 # Import libraries

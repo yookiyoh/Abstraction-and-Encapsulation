@@ -63,7 +63,7 @@ if __name__ == '__main__'
 
 
 
-# Import Car
+# Import the Car Class from Car Module
 from Car import Car
 
  # Import libraries
