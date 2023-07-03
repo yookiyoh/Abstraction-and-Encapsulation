@@ -91,4 +91,7 @@ class TestFan:
         print("Fan Color:", fan.get_color())   # Print fan color 
         print(fan.display_message())   # Print fan message (spinning or off)
         print()
-        
+
+# Create an instance of the TestFan class to execute the program
+if __name__ == '__main__':
+    test = TestFan()
