@@ -43,4 +43,11 @@ class Car:
         self.__speed += 5
 
     # Method that enables the car's brakes
+    def brake(self):
+        if self.__speed >= 5:
+            # If the speed is greater than or equal to 5, decrease the speed by 5
+            self.__speed -= 5
+        else:
+            # If the speed is less than 5, set the speed to 0
+            self.__speed = 0
     
