@@ -73,6 +73,11 @@ class TestFan:
         else:
             raise ValueError("Invalid radius value. Must be greater than zero.")   # Raise an error for invalid radius
         
-    #
+    # Method that enables the fan status 
+    def get_on_input(self):
+        on = input("Turn on fan? (y/n): ")   # Get on/off input as a string
+        return on.lower() == 'y'   # Return True if 'y' is entered, False otherwise
+    
+    
         
     
