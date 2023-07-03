@@ -124,4 +124,14 @@ class PetDetailsWidget(tk.Tk):
         animal_type = self.type_input.get().strip()
         age_str = self.age_input.get().strip()
 
-    # 
+        # Validate the input values
+        if not name or not animal_type or not age_str:
+            messagebox.showerror("Error", "Please fill in all the fields.")
+            return
+        
+        try:
+            age = int(age_str)
+        except ValueError:
+            messagebox.showerror("Error", "Age must be a valid integer.")
+            return
+    
