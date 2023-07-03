@@ -77,4 +77,3 @@ from tqdm import tqdm
 def accelerate_car(car):
     car.accelerate()
     time.sleep(0.5)   # Pause for 0.5 seconds
-
