@@ -99,4 +99,6 @@ def main():
     speed_label = tk.Label(window, text="Current Speed:")
     speed_label.pack()
 
-    # 
+    # Create a label to display the current speed of the car
+    speed_value = tk.Label(window, text=str(car.get_speed()))
+    speed_value.pack()
