@@ -1,6 +1,6 @@
 # Ralph Lorenz I. Codilan
 # BSCpE 1-5
-# Object-Oriented Programming | Car Class
+# Object-Oriented Programming | Pet Class
 
 # Pseudocode
 
@@ -74,3 +74,6 @@ If __name__ == "__main__":
     For each iteration in tqdm(range(100)) with description "Processing" and unit "%" and ASCII style:
         Pause for 0.01 seconds
 '''
+
+
+
