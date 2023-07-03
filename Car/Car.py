@@ -39,6 +39,8 @@ class Car:
 
     # Execute the Car class methods
     # Method that increases the car's speed by 5
-    self.__speed += 5
+    def accelerate(self):
+        self.__speed += 5
 
+    # Method that enables the car's brakes
     
