@@ -118,4 +118,10 @@ class PetDetailsWidget(tk.Tk):
         self.age_input.pack()
         self.submit_button.pack(pady=15)
     
-    
+    # Method that gets the input values from the user
+    def submit_button_clicked(self):
+        name = self.name_input.get().strip()
+        animal_type = self.type_input.get().strip()
+        age_str = self.age_input.get().strip()
+
+    # 
