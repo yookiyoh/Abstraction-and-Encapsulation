@@ -159,4 +159,9 @@ class PetDetailsWidget(tk.Tk):
         self.animate_labels(pet_name_label, pet_type_label, pet_age_label)   # Animate the labels
         self.animate_window_size()   # Animate the window size
 
+    # Method that removes all widgets from the window
+    def clear_widgets(self):
+        for widget in self.winfo_children():
+            widget.pack_forget()
+    
     
