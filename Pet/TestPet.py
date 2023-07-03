@@ -134,4 +134,10 @@ class PetDetailsWidget(tk.Tk):
         except ValueError:
             messagebox.showerror("Error", "Age must be a valid integer.")
             return
-    
+        
+        # Set the pet details using the Pet class methods
+        self.pet.set_name(name)
+        self.pet.set_animal_type(animal_type)
+        self.pet.set_age(age)
+
+        
