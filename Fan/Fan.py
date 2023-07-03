@@ -3,6 +3,7 @@
 # Object-Oriented Programming | Car Class
 
 # Pseudocode
+
 '''
 Class Fan:
     Constants:
