@@ -127,3 +127,7 @@ def main():
     except Exception as e:
         # Display an error message box with an error message
         messagebox.showerror("Error occurred", str(e))
+    
+    finally:
+        progress_bar.close()   # Close the progress bar
+        window.destroy()   # Dismantle the GUI window
