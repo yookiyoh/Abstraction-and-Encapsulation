@@ -151,4 +151,12 @@ class PetDetailsWidget(tk.Tk):
         pet_type_label = tk.Label(self, text="Type: " + self.pet.get_animal_type(), font=("Ubuntu", 14, "bold"), fg="blue")
         pet_age_label = tk.Label(self, text="Age: " + str(self.pet.get_name()), font=("Ubuntu", 14, "bold"), fg="purple")
 
-        # 
+        # Pack the labels in the window
+        pet_name_label.pack(pady=10)
+        pet_type_label.pack(pady=5)
+        pet_age_label.pack(pady=5)
+
+        self.animate_labels(pet_name_label, pet_type_label, pet_age_label)   # Animate the labels
+        self.animate_window_size()   # Animate the window size
+
+    
