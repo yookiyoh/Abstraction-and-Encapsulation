@@ -71,3 +71,10 @@ import time
 import tkinter as tk
 from tkinter import messagebox
 from tqdm import tqdm
+
+# Have TestCar methods
+# Method that increases the car's speed by calling the accelerate method
+def accelerate_car(car):
+    car.accelerate()
+    time.sleep(0.5)   # Pause for 0.5 seconds
+
