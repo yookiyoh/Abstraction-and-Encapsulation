@@ -195,3 +195,11 @@ class PetDetailsWidget(tk.Tk):
         
 
 
+if __name__ == '__main__':
+    widget = PetDetailsWidget()   # Create an instance of the PetDetailsWidget
+    widget.mainloop()   # Run the GUI main loop
+
+    time.sleep(0.5)
+
+    for _ in tqdm(range(100), desc="Processing", unit="%", ascii=True):
+        time.sleep(0.01)
