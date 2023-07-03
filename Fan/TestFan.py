@@ -57,4 +57,12 @@ class TestFan:
         except ValueError as e:
             print("Error: ", str(e))
 
+    # Method that enables input for fan speed
+    def get_speed_input(self):
+        speed = int(input("Enter fan speed (1 for SLOW, 2 for MEDIUM, 3 for FAST): "))   # Get speed input as an integer
+        if speed in (Fan.__SLOW, Fan.__MEDIUM, Fan.__FAST):   # Check if speed is a valid option
+            return speed   # Return the valid speed value
+        else:
+            raise ValueError("Invalid speed value. Must be SLOW, MEDIUM, or FAST.")   # Raise an error for invalid speed
+        
     
