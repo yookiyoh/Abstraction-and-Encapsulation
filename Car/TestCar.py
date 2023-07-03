@@ -135,8 +135,3 @@ def main():
 # Create a TestCar instance to execute the program
 if __name__ == '__main__':
     main()
-
-    # testing the program
-    # errors occured, subject to code re-editing
-    # retesting of program
-    # program was successfully working
