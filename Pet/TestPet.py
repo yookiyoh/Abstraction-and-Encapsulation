@@ -88,4 +88,12 @@ from tkinter import messagebox   # Import messagebox for displaying error messag
 
 # Create a class for the Pet Details Widget
 class PetDetailsWidget(tk.Tk):
+    # Have TestPet constructor/s
+    # Constructor that initializes the Pet Details Widget with their properties and methods
+    def __init__(self):
+        super().__init__()
+        self.pet = Pet()   # Create an instance of the Pet class
+        self.title("Pet Details")   # Set the window title
+        self.setup_ui()   # Set up the user interface
     
+     
