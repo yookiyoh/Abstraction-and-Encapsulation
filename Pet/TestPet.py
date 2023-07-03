@@ -95,5 +95,18 @@ class PetDetailsWidget(tk.Tk):
         self.pet = Pet()   # Create an instance of the Pet class
         self.title("Pet Details")   # Set the window title
         self.setup_ui()   # Set up the user interface
-    
-     
+
+    # Method that comprises labels, input fields, and button for user interface
+    def setup_ui(self):
+        self.name_label = tk.Label(self, text="Name:", font=("Ubuntu", 14, "bold"))
+        self.name_input = tk.Entry(self, font=("Ubuntu", 12))
+
+        self.type_label = tk.Label(self, text="Type:", font=("Ubuntu", 14, "bold"))
+        self.type_input = tk.Entry(self, font=("Ubuntu", 12))
+
+        self.age_label = tk.Label(self, text="Age:", font=("Ubuntu", 14, "bold"))
+        self.age_input = tk.Entry(self, font=("Ubuntu", 12))
+
+        self.submit_button = tk.Button(self, text="Submit", command=self.submit_button_clicked, font=("Ubuntu", 12))
+
+        
