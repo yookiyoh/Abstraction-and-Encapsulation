@@ -31,4 +31,8 @@ class Car:
 
 # Define a Car class with its properties and methods
 class Car:
-    
+    # Enable Car class constructor/s
+    # Constructor that initializes the Car object with year model, maker, and speed
+    self.__year_model = year_model
+    self.__maker = maker
+    self.__speed = 0
