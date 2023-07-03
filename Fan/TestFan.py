@@ -93,7 +93,7 @@ class TestFan:
         print()
 
 # Create an instance of the TestFan class to execute the program
-if __name__ == '__main__':
-    test = TestFan()
+TestFan()
 
     # Testing the program
+    # Error identified. Fixing the program
