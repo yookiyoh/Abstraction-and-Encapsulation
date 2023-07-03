@@ -164,4 +164,15 @@ class PetDetailsWidget(tk.Tk):
         for widget in self.winfo_children():
             widget.pack_forget()
     
+    # Method that animates the labels
+    def animate_labels(self, *labels):
+        colors = ["green", "blue", "purple"]
+        delay = 500   # Delay between color changes (in milliseconds)
+
+        for _ in range(5):   # Perform color change animation 5 times
+            for colors in colors:
+                self.update_labels_color(labels, color)
+                self.update()
+                time.sleep(delay / 1000)
     
+    # 
