@@ -124,4 +124,6 @@ def main():
         window.update()   # Update the GUI window
         time.sleep(0.5)   # Pause for 0.5 seconds
 
-        
+    except Exception as e:
+        # Display an error message box with an error message
+        messagebox.showerror("Error occurred", str(e))
