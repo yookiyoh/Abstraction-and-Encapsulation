@@ -77,6 +77,12 @@ If __name__ == "__main__":
 
 
 
-# Import Pet
+# Import the Pet Class from Pet Module
 from Pet import Pet
+
+# Import libraries
+import time   # Import the time module for the delays
+from tqdm import tqdm   # Import tqdm for progress bar
+import tkinter as tk   # Import tkinter for GUI
+from tkinter import messagebox   # Import messagebox for displaying error messages
 
