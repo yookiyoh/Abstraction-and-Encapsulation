@@ -33,9 +33,10 @@ class Car:
 class Car:
     # Enable Car class constructor/s
     # Constructor that initializes the Car object with year model, maker, and speed
-    self.__year_model = year_model
-    self.__maker = maker
-    self.__speed = 0
+    def __init__(self, year_model, maker):
+        self.__year_model = year_model
+        self.__maker = maker
+        self.__speed = 0
 
     # Execute the Car class methods
     # Method that increases the car's speed by 5
