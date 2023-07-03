@@ -99,3 +99,4 @@ TestFan()
     # Error identified. Fixing the program
     # Minor remodifications
     # Fixed errors for the nth time. Lord parang awa mo na gumana na ito please
+    # Testing the program :')
