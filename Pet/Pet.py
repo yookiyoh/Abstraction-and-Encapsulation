@@ -41,3 +41,11 @@ class Pet:
 
 # Define a Pet Class with its properties and methods
 class Pet:
+    # Enable Pet Class constructor/s
+    # Constructor that initializes the Pet object attributes with default values
+    def __init__(self):
+        self.__name = ""
+        self.__animal_type = ""
+        self.__age = 0
+    
+    
