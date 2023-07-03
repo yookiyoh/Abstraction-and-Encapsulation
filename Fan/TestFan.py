@@ -60,7 +60,7 @@ class TestFan:
     # Method that enables input for fan speed
     def get_speed_input(self):
         speed = int(input("Enter fan speed (1 for SLOW, 2 for MEDIUM, 3 for FAST): "))   # Get speed input as an integer
-        if speed in (Fan._Fan.__SLOW, Fan._Fan.__MEDIUM, Fan._Fan.__FAST):   # Check if speed is a valid option
+        if speed in (Fan._Fan__SLOW, Fan._Fan__MEDIUM, Fan._Fan__FAST):   # Check if speed is a valid option
             return speed   # Return the valid speed value
         else:
             raise ValueError("Invalid speed value. Must be SLOW, MEDIUM, or FAST.")   # Raise an error for invalid speed
@@ -93,9 +93,9 @@ class TestFan:
         print()
 
 # Create an instance of the TestFan class to execute the program
-if __name__ == '__main__':
-    test = TestFan()
+TestFan()
 
     # Testing the program
     # Error identified. Fixing the program
     # Minor remodifications
+    # Fixed errors for the nth time. Lord parang awa mo na gumana na ito please
