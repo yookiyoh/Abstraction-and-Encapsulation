@@ -102,3 +102,14 @@ def main():
     # Create a label to display the current speed of the car
     speed_value = tk.Label(window, text=str(car.get_speed()))
     speed_value.pack()
+
+    try:
+        # Accelerate the car 5 times
+        for _ in range(5):
+            accelerate_car(car)
+            speed_value.config(text=str(car.get_speed()))   # Update the label with the current speed
+            progress_bar.update(1)   # Update the progress bar by 1 step
+            window.update()   # Update the GUI window
+
+        
+        
