@@ -137,3 +137,4 @@ if __name__ == '__main__':
     main()
 
     # testing the program
+    # errors occured, subject to code re-editing
