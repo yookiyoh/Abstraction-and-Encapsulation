@@ -36,3 +36,9 @@ class Car:
     self.__year_model = year_model
     self.__maker = maker
     self.__speed = 0
+
+    # Execute the Car class methods
+    # Method that increases the car's speed by 5
+    self.__speed += 5
+
+    
