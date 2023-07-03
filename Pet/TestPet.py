@@ -86,3 +86,6 @@ from tqdm import tqdm   # Import tqdm for progress bar
 import tkinter as tk   # Import tkinter for GUI
 from tkinter import messagebox   # Import messagebox for displaying error messages
 
+# Create a class for the Pet Details Widget
+class PetDetailsWidget(tk.Tk):
+    
