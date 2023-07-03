@@ -203,6 +203,3 @@ if __name__ == '__main__':
 
     for _ in tqdm(range(100), desc="Processing", unit="%", ascii=True):
         time.sleep(0.01)
-
-        # program testing
-        # program was working fine
