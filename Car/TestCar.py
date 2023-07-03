@@ -79,6 +79,6 @@ def accelerate_car(car):
     time.sleep(0.5)   # Pause for 0.5 seconds
 
 # Method that decreases the car's speed by calling the brake method
-def accelerate_car(car):
+def brake_car(car):
     car.brake()
     time.sleep(0.5)   # Pause for 0.5 seconds
