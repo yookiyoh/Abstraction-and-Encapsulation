@@ -170,9 +170,14 @@ class PetDetailsWidget(tk.Tk):
         delay = 500   # Delay between color changes (in milliseconds)
 
         for _ in range(5):   # Perform color change animation 5 times
-            for colors in colors:
+            for color in colors:
                 self.update_labels_color(labels, color)
                 self.update()
                 time.sleep(delay / 1000)
     
-    # 
+    # Method that updates the label colors
+    def update_labels_color(self, labels, color):
+        for label in labels:
+            label.config(fg=color)
+        
+    
