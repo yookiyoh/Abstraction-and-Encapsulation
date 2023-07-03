@@ -51,3 +51,6 @@ class Car:
             # If the speed is less than 5, set the speed to 0
             self.__speed = 0
     
+    # Method that returns the current speed of the car
+    def get_speed(self):
+        return self.__speed
