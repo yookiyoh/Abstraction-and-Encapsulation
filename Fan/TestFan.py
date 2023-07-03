@@ -34,4 +34,27 @@ from tqdm import tqdm
 # Define a TestFan class
 class TestFan:
     # Have TestFan constructor/s
+    # Constructor that initializes the Fan objects with their properties and methods
+    def __init__(self):
+        try:
+            speed = self.get_speed_input()   # Get speed input from the user
+            radius = self.get_radius_input()   # Get radius input from the user
+            color = input("Enter fan color: ")   # Get speed input from the user
+            on = self.get_on_input()   # Get on/off input from the user
+            
+            fan1 = Fan(speed=speed, radius=radius, color=color, on=on)   # Create fan1 object using user-provided values
+
+            speed = self.get_speed_input()   # Get speed input from the user
+            radius = self.get_radius_input()   # Get radius input from the user
+            color = input("Enter fan color: ")   # Get speed input from the user
+            on = self.get_on_input()   # Get on/off input from the user
+            
+            fan2 = Fan(speed=speed, radius=radius, color=color, on=on)   # Create fan2 object using user-provided values
+
+            self.display_fan_properties(fan1)   # Display fan1 properties
+            self.display_fan_properties(fan2)   # Display fan2 properties
+        
+        except ValueError as e:
+            print("Error: ", str(e))
+
     
