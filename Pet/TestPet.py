@@ -109,4 +109,13 @@ class PetDetailsWidget(tk.Tk):
 
         self.submit_button = tk.Button(self, text="Submit", command=self.submit_button_clicked, font=("Ubuntu", 12))
 
-        
+        # Pack the labels, input fields, and button in the window
+        self.name_label.pack(pady=10)
+        self.name_input.pack()
+        self.type_label.pack(pady=10)
+        self.type_input.pack()
+        self.age_label.pack(pady=10)
+        self.age_input.pack()
+        self.submit_button.pack(pady=15)
+    
+    
