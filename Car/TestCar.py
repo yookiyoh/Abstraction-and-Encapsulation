@@ -131,3 +131,7 @@ def main():
     finally:
         progress_bar.close()   # Close the progress bar
         window.destroy()   # Dismantle the GUI window
+
+# Create a TestCar instance to execute the program
+if __name__ == '__main__':
+    main()
