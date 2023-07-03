@@ -118,4 +118,10 @@ def main():
             progress_bar.update(1)   # Update the progress bar by 1 step
             window.update()   # Update the GUI window
         
+        # Set the label to display "0" to indicate the speed is "0"
+        speed_value.config(text="0")
+        progress_bar.update(1)   # Update the progress bar by 1 step
+        window.update()   # Update the GUI window
+        time.sleep(0.5)   # Pause for 0.5 seconds
+
         
