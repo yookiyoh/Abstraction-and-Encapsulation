@@ -29,7 +29,6 @@ from Fan import Fan
 
 # Import libraries
 import time
-from colorama import Fore, Back, Style
 from tqdm import tqdm
 
 # Define a TestFan class
