@@ -82,3 +82,10 @@ def accelerate_car(car):
 def brake_car(car):
     car.brake()
     time.sleep(0.5)   # Pause for 0.5 seconds
+
+# Method transpiring main functions of the program
+def main():
+    # Create a Car object with year model and manufacturer
+    car = Car(2023, "Bugatti")
+
+    
