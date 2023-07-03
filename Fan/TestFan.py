@@ -69,7 +69,7 @@ class TestFan:
     def get_radius_input(self):
         radius = float(input("Enter fan radius: "))   # Get radius input as a float
         if radius > 0:   # Check if radius is greater than zero
-            return speed   # Return the valid radius value
+            return radius   # Return the valid radius value
         else:
             raise ValueError("Invalid radius value. Must be greater than zero.")   # Raise an error for invalid radius
         
